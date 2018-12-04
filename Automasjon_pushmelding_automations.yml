@@ -5,7 +5,7 @@
   hide_entity: true
   trigger:
     platform: state
-    entity_id: switch.coffeemaker
+    entity_id: switch.YOUR_SWITCH
     to: 'on'
     for:
       minutes: 30
@@ -21,7 +21,7 @@
           badge: 0
           category: "coffeemaker"
         action_data:
-          entity_id: switch.coffeemaker
+          entity_id: switch.YOUR_SWITCH
 
             
             
@@ -35,7 +35,7 @@
       actionName: COFFEEMAKEROFF
   action:
     - service: switch.turn_off
-      entity_id: switch.coffeemaker
+      entity_id: switch.YOUR_SWITCH
       
     - service: notify.ios_YOUR_IPHONE
       data:
