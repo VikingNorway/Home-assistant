@@ -1,1 +1,1 @@
-# Home-assistant
+# Home-assistant automations examples
